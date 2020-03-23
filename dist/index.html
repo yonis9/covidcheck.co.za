@@ -4,10 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MapboxGLJS Starter</title>
+
+    <link
+      href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <style>
+      .app-fab--absolute {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+      }
+      @media (min-width: 1024px) {
+        .app-fab--absolute {
+          top: 1.5rem;
+          left: 1.5rem;
+        }
+      }
+    </style>
+
+    <title>Find a Covid-19 Test Location in South Africa</title>
   </head>
   <body>
+    <a href="https://covidtest.typeform.com/to/jE0bqs">
+      <button class="mdc-fab mdc-fab--extended app-fab--absolute">
+        <div class="mdc-fab__ripple"></div>
+        <span class="material-icons mdc-fab__icon">add</span>
+        <span class="mdc-fab__label">Add a Testing Location</span>
+      </button>
+    </a>
     <div id="map"></div>
     <script src="app.js"></script>
   </body>
+  <script>
+    mdc.ripple.MDCRipple.attachTo(document.querySelector(".mdc-fab"));
+  </script>
 </html>

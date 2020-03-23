@@ -1,8 +1,9 @@
+import { MDCRipple } from "@material/ripple";
+const fabRipple = new MDCRipple(document.querySelector(".mdc-fab"));
+
 var access_token = process.env.MAPBOX_GL_ACCESS_TOKEN;
 var style_uri = process.env.MAPBOX_STYLE_URI;
 var geojson_source = process.env.GEOJSON_DATA_SOURCE;
-
-console.log(access_token);
 
 mapboxgl.accessToken = access_token;
 

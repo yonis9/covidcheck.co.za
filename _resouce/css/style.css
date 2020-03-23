@@ -1,10 +1,16 @@
-html, body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #map {
-    z-index: 0;
-    height: 100%;
+  z-index: 0;
+  height: 100%;
+}
+
+.mdc-fab {
+  z-index: 99;
+  background-color: #3d5afe;
 }

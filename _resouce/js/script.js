@@ -52,8 +52,8 @@ map.on("load", function() {
     filter: ["has", "point_count"],
     layout: {
       "text-field": "{point_count_abbreviated}",
-      "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
-      "text-size": 12
+      "text-font": ["DIN Offc Pro Bold", "Arial Unicode MS Bold"],
+      "text-size": 14
     }
   });
 

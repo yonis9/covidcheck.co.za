@@ -1,8 +1,14 @@
-mapboxgl.accessToken = process.env.MAPBOX_GL_ACCESS_TOKEN;
+var access_token = process.env.MAPBOX_GL_ACCESS_TOKEN;
+var style_uri = process.env.MAPBOX_STYLE_URI;
+var geojson_source = process.env.GEOJSON_DATA_SOURCE;
+
+console.log(access_token);
+
+mapboxgl.accessToken = access_token;
 
 var map = new mapboxgl.Map({
   container: "map",
-  style: process.env.MAPBOX_STYLE_URI,
+  style: style_uri,
   center: [24.689824, -28.725478],
   zoom: 5.13
 });
@@ -15,7 +21,7 @@ map.on("load", function() {
     type: "geojson",
     // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
     // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
-    data: process.env.GEOJSON_DATA_SOURCE,
+    data: geojson_source,
     cluster: true
     // clusterMaxZoom: 14, // Max zoom to cluster points on
     // clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)

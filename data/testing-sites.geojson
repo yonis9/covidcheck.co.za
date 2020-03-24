@@ -256,6 +256,48 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Lancet Centurion - Saxby",
+                "address": "58 Henri Road, Eldoraigne, Centurion, 0157",
+                "location": "https://goo.gl/maps/r1tsLcmghcgZn3YC7",
+                "hours": "Mon-Fri 07:00-17:00",
+                "telephone": "+27213842151",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.155671,
+                    -25.841181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Life Roseacres Hospital",
+                "address": "Cnr. Castor and, St Joseph St, Primrose, Germiston, 1401",
+                "location": "https://goo.gl/maps/9TMxe24MtCs2Ajjt7",
+                "hours": "Mon-Fri 08:00-17:00",
+                "telephone": "+27118220360",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.168313,
+                    -26.179251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Lancet - Kingsbury Hospital Parking Lot",
                 "address": "Claremont Life Kingsbury Hospital, 23 Wilderness Rd, Claremont, Cape Town, 7708, (after the boom, first tent, next to main entrance of hospital)",
                 "location": "https://goo.gl/maps/T6G3PZUD3vJFyMYs9",

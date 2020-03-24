@@ -102,6 +102,14 @@ map.on("load", function() {
   map.on("click", "unclustered-point", function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var desc = e.features[0].properties.description;
+    var name = e.features[0].properties.name;
+    var address = e.features[0].properties.address;
+    var location = e.features[0].properties.location;
+    var telephone = e.features[0].properties.telephone;
+    // var eligibility_screening = e.features[0].properties.eligibility_screening;
+    var referral_required = e.features[0].properties.referral_required;
+    var appointment_required = e.features[0].properties.appointment_required;
+    var drivethru = e.features[0].properties.drivethru;
 
     // Ensure that if the map is zoomed out such that
     // multiple copies of the feature are visible, the
@@ -112,7 +120,25 @@ map.on("load", function() {
 
     new mapboxgl.Popup()
       .setLngLat(coordinates)
-      .setHTML(desc)
+      .setHTML(
+        "<strong>" +
+          name +
+          "</strong><p>" +
+          address +
+          "<br><a href='tel:" +
+          telephone +
+          "'>" +
+          telephone +
+          "</a><br><a href='" +
+          location +
+          "'>Directions</a><br><br>Doctor's note required? <strong>" +
+          referral_required +
+          "</strong><br>Appointment required? <strong>" +
+          appointment_required +
+          "</strong><br>Drive-through facilty? <strong>" +
+          drivethru +
+          "</strong></p>"
+      )
       .addTo(map);
   });
 

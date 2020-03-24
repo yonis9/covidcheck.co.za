@@ -7,11 +7,12 @@
                 "name": "Fourways Life Hospital",
                 "address": "Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055",
                 "location": "https://goo.gl/maps/m41RojuX7hFT8cr87",
-                "telephone": "+27118751000",
+                "hours": "Mon-Sun 08:00-16:00",
+                "telephone": "+27119963000",
                 "eligibility_screening": "Yes",
                 "referral_required": "Yes",
                 "appointment_required": "No",
-                "drivethru": "No"
+                "drivethru": "Yes"
             },
             "geometry": {
                 "type": "Point",
@@ -188,6 +189,69 @@
                     -25.922383
                 ]
             }
-        }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Legae",
+                "address": "Ground Floor, Mediclinic Legae, Molefe Makinta Street, Mabopane, 0190",
+                "location": "https://goo.gl/maps/vzwB13dETsdDt7Bo9",
+                "hours": "24 hours - Hospital Patients; 07:00-16:00 Outpatients",
+                "telephone": "+27121978001",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.037982,
+                    -25.525651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dr Susan Lasia Miller",
+                "address": "94 Green Ave, Edleen, Kempton Park, 1625",
+                "location": "https://goo.gl/maps/qHo78MWt1FiBmeF38",
+                "hours": "Mon-Sun 08:00-17:00",
+                "telephone": "+27119750631",
+                "eligibility_screening": "Yes",
+                "referral_required": "No",
+                "appointment_required": "Yes",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.207027,
+                    -26.097040
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Faerie Glen",
+                "address": "Life Faerie Glen Medical Centre, 398 Jacqueline Drive, Garsfontein",
+                "location": "https://goo.gl/maps/XBwMkyxH1arDELKn9",
+                "hours": "24 hours",
+                "telephone": "+27123489100",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.290549,
+                    -25.783493
+                ]
+            }
+        },
     ]
 }

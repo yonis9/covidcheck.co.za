@@ -298,6 +298,69 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Lancet - Ruimsig Collection Depot",
+                "address": "Shop 26 Ruimsig Boulevard Cnr Doreen &, Hendrik Potgieter Rd, Roodepoort, 1724",
+                "location": "https://goo.gl/maps/NLrbG4Hkaav1o9yg9",
+                "hours": "Mon-Fri 07:00-18:00, Sat 08:00-13:00",
+                "telephone": "+27119580579",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.869639,
+                    -26.091289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Rosebank",
+                "address": "8 Sturdee Ave, Rosebank, Johannesburg, 2196",
+                "location": "https://goo.gl/maps/cf8J3UhLNqzsKB6K7",
+                "hours": "Mon-Sun 07:00-19:00",
+                "telephone": "+27112774060",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.039158,
+                    -26.147365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Honeydew Village Centre Depot",
+                "address": "Shop 23 Honeydew Village, John Vorster Rd, Honeydew, 1715",
+                "location": "https://goo.gl/maps/1B2qDFuGQL9RxPbB9",
+                "hours": "Mon-Fri 07:00-18:00",
+                "telephone": "+27116750536",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.925224,
+                    -26.105719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Lancet - Kingsbury Hospital Parking Lot",
                 "address": "Claremont Life Kingsbury Hospital, 23 Wilderness Rd, Claremont, Cape Town, 7708, (after the boom, first tent, next to main entrance of hospital)",
                 "location": "https://goo.gl/maps/T6G3PZUD3vJFyMYs9",

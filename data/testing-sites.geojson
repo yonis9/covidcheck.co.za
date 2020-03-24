@@ -47,8 +47,8 @@
             "type": "Feature",
             "properties": {
                 "name": "Lancet Alberton",
-                "address": "60 Clinton Road, Alberton",
-                "location": "https://goo.gl/maps/up1GoxhsrKVM2io97",
+                "address": "60 Clinton Rd, New Redruth, Alberton, 1449",
+                "location": "https://goo.gl/maps/iRE69Bv24sfssp4PA",
                 "hours": "Mon-Sun 07:00-19:00",
                 "telephone": "+27119071658",
                 "eligibility_screening": "Yes",
@@ -59,8 +59,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    28.055185,
-                    -26.095686
+                    28.120306,
+                    -26.272420
                 ]
             }
         },

@@ -67,13 +67,13 @@
             "type": "Feature",
             "properties": {
                 "name": "Lancet Corner depot",
-                "address": "Block F, Cnr Napier and Menton rds, Richmond, Johannesburg",
+                "address": "Block F , Cnr Napier and Menton rds, Richmond, Johannesburg",
                 "location": "https://goo.gl/maps/eng71DM38Jt1G55i6",
                 "hours": "Mon-Fri, 07:00-19:00, Sat & Sun, 08:00-13:00",
                 "telephone": "TBC",
                 "eligibility_screening": "Yes",
-                "doc_referral": "Yes",
-                "referral_required": "No",
+                "referral_required": "Yes",
+                "appointment_required": "No",
                 "drivethru": "Yes"
             },
             "geometry": {

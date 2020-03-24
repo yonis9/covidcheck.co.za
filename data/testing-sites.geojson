@@ -1,1 +1,47 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"marker-symbol":"","Name":"Fourways Life Hospital","Street Address":"Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055","Map Location":"https://goo.gl/maps/m41RojuX7hFT8cr87","Telephone Number":"+27118751000","Eligibility Screening":"Yes","Doctor's Referral":"Yes","Appointment Required":"No","Drive-thru Testing":"No"},"geometry":{"type":"Point","coordinates":[27.995556592941284,-26.01234168011375]}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fourways Life Hospital",
+                "address": "Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055",
+                "location": "https://goo.gl/maps/m41RojuX7hFT8cr87",
+                "telephone": "+27118751000",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No",
+                "description": "<strong>Fourways Life Hospital</strong><p>Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055<br><a href='https://goo.gl/maps/m41RojuX7hFT8cr87'>Directions</a><br><a href='tel:+27118751000'>+27118751000</a></p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.995556592941284,
+                    -26.01234168011375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Morningside",
+                "address": "173 Rivonia Road, Morningside, Sandton, South Africa, Rochester Place, Block A Office",
+                "location": "https://goo.gl/maps/up1GoxhsrKVM2io97",
+                "telephone": "+27113241857",
+                "eligibility_screening": "Yes",
+                "doc_referral": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes",
+                "description": "<strong>Fourways Life Hospital</strong><p>The <a href='http://ballstonarts-craftsmarket.blogspot.com/' target="_blank" title='Opens in a new window'>Ballston Arts & Crafts Market</a> sets up shop next to the Ballston metro this Saturday for the first of five dates this summer. Nearly 35 artists and crafters will be on hand selling their wares. 10:00-4:00 p.m.</p>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.055185,
+                    -26.095686
+                ]
+            }
+        }
+    ]
+}

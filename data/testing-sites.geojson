@@ -7,12 +7,12 @@
                 "name": "Fourways Life Hospital",
                 "address": "Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055",
                 "location": "https://goo.gl/maps/m41RojuX7hFT8cr87",
-                "telephone": "+27118751000",
+                "hours": "Mon-Sun 08:00-16:00",
+                "telephone": "+27119963000",
                 "eligibility_screening": "Yes",
                 "referral_required": "Yes",
                 "appointment_required": "No",
-                "drivethru": "No",
-                "description": "<strong>Fourways Life Hospital</strong><p>Cedar Ave West & Cedar Road, Fourways, Johannesburg, 2055<br><a href='https://goo.gl/maps/m41RojuX7hFT8cr87'>Directions</a><br><a href='tel:+27118751000'>+27118751000</a></p>"
+                "drivethru": "Yes"
             },
             "geometry": {
                 "type": "Point",
@@ -28,18 +28,354 @@
                 "name": "Lancet Morningside",
                 "address": "173 Rivonia Road, Morningside, Sandton, South Africa, Rochester Place, Block A Office",
                 "location": "https://goo.gl/maps/up1GoxhsrKVM2io97",
+                "hours": "Mon-Fri 07:00-18:00",
                 "telephone": "+27113241857",
                 "eligibility_screening": "Yes",
-                "doc_referral": "Yes",
+                "referral_required": "Yes",
                 "appointment_required": "No",
-                "drivethru": "Yes",
-                "description": "TBC"
+                "drivethru": "Yes"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     28.055185,
                     -26.095686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Alberton",
+                "address": "60 Clinton Rd, New Redruth, Alberton, 1449",
+                "location": "https://goo.gl/maps/iRE69Bv24sfssp4PA",
+                "hours": "Mon-Sun 07:00-19:00",
+                "telephone": "+27119071658",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.120306,
+                    -26.272420
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Corner depot",
+                "address": "Block F , Cnr Napier and Menton rds, Richmond, Johannesburg",
+                "location": "https://goo.gl/maps/eng71DM38Jt1G55i6",
+                "hours": "Mon-Fri, 07:00-19:00, Sat & Sun, 08:00-13:00",
+                "telephone": "TBC",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.014072,
+                    -26.182554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Vereeniging",
+                "address": "46 Rhodes Ave, Vereeniging, 1939",
+                "location": "https://goo.gl/maps/gzcMAu21WQdfyjcn8",
+                "hours": "Mon-Sun 07:00-19:00",
+                "telephone": "+27164211207",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.927276,
+                    -26.666986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Pencardia",
+                "address": "Pencardia 1 Building, 1st Floor, 509 Pretorius St, Arcadia, Pretoria",
+                "location": "https://goo.gl/maps/8b5AwNh4bWLbsLHT6",
+                "hours": "24 hours",
+                "telephone": "+27124830100",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.205359,
+                    -25.746510
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Eugene Marais",
+                "address": "663 5th Avenue, Les Marais, Pretoria, 0084",
+                "location": "https://goo.gl/maps/qJDtkjj89tDCEQ8W6",
+                "hours": "Mon–Fri, 08:00-17:00",
+                "telephone": "+271240408600",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.193661,
+                    -25.709591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Woodhill",
+                "address": "Parkview Shopping Centre, 24 Garsfontein Rd, Moreleta Park, Pretoria, 0044",
+                "location": "https://goo.gl/maps/4Mi13V64Pi7L1kUe7",
+                "hours": "Mon–Fri, 08:00-17:00",
+                "telephone": "+27129980299",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.303140,
+                    -25.817451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Midstream Mediclinic",
+                "address": "Midstream Medical Medical Park, Midstream Hill",
+                "location": "https://goo.gl/maps/HuRr4ucJZLNY2vEN8",
+                "hours": "Mon–Fri, 08:00-17:00, Sat 08:00-13:00",
+                "telephone": "+27129421102",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.190930,
+                    -25.922383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Legae",
+                "address": "Ground Floor, Mediclinic Legae, Molefe Makinta Street, Mabopane, 0190",
+                "location": "https://goo.gl/maps/vzwB13dETsdDt7Bo9",
+                "hours": "24 hours - Hospital Patients; 07:00-16:00 Outpatients",
+                "telephone": "+27121978001",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.037982,
+                    -25.525651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dr Susan Lasia Miller",
+                "address": "94 Green Ave, Edleen, Kempton Park, 1625",
+                "location": "https://goo.gl/maps/qHo78MWt1FiBmeF38",
+                "hours": "Mon-Sun 08:00-17:00",
+                "telephone": "+27119750631",
+                "eligibility_screening": "Yes",
+                "referral_required": "No",
+                "appointment_required": "Yes",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.207027,
+                    -26.097040
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Faerie Glen",
+                "address": "Life Faerie Glen Medical Centre, 398 Jacqueline Drive, Garsfontein",
+                "location": "https://goo.gl/maps/XBwMkyxH1arDELKn9",
+                "hours": "24 hours",
+                "telephone": "+27123489100",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.290549,
+                    -25.783493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Centurion - Saxby",
+                "address": "58 Henri Road, Eldoraigne, Centurion, 0157",
+                "location": "https://goo.gl/maps/r1tsLcmghcgZn3YC7",
+                "hours": "Mon-Fri 07:00-17:00",
+                "telephone": "+27213842151",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.155671,
+                    -25.841181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Life Roseacres Hospital",
+                "address": "Cnr. Castor and, St Joseph St, Primrose, Germiston, 1401",
+                "location": "https://goo.gl/maps/9TMxe24MtCs2Ajjt7",
+                "hours": "Mon-Fri 08:00-17:00",
+                "telephone": "+27118220360",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.168313,
+                    -26.179251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Kingsbury Hospital Parking Lot",
+                "address": "Claremont Life Kingsbury Hospital, 23 Wilderness Rd, Claremont, Cape Town, 7708, (after the boom, first tent, next to main entrance of hospital)",
+                "location": "https://goo.gl/maps/T6G3PZUD3vJFyMYs9",
+                "hours": "Mon-Fri 08:00-16:00, Sat & Sun 09:00-13:00",
+                "telephone": "+27216731700",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.469107,
+                    -33.986199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Century City",
+                "address": "Smartsurv House, Century City, Cape Town, 7441, (Located on Canal Walk Shopping Centre)",
+                "location": "https://goo.gl/maps/DeJ7fxKw44Ywyytz5",
+                "hours": "Mon-Sun 07:00–19:00",
+                "telephone": "+27216731700",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.515243,
+                    -33.892153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - PMB Midlands",
+                "address": "Ground Floor, Midlands Medical Centre, 162-166 Masukwana St, Pietermaritzburg, 3201",
+                "location": "https://goo.gl/maps/exCq6LtNKtZt4j1j8",
+                "hours": "Mon-Fri 08:00-17:00, Sat 08:00-13:00",
+                "telephone": "+27332644340",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.391069,
+                    -29.592495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Teleradio building",
+                "address": "73 Carlisle Street, Durban Central, Durban, 4001",
+                "location": "https://goo.gl/maps/Htydfw3LqAzAuLcZA",
+                "hours": "Mon-Fri 8:00-17:00, Sat 8:00-13:00",
+                "telephone": "+27313086500",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.015200,
+                    -29.850569
                 ]
             }
         }

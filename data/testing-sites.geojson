@@ -90,8 +90,8 @@
                 "name": "Lancet Vereeniging",
                 "address": "46 Rhodes Ave, Vereeniging, 1939",
                 "location": "https://goo.gl/maps/gzcMAu21WQdfyjcn8",
-                "hours": "24 hours",
-                "telephone": "+27124830100",
+                "hours": "Mon-Sun 07:00-19:00",
+                "telephone": "+27164211207",
                 "eligibility_screening": "Yes",
                 "referral_required": "Yes",
                 "appointment_required": "No",
@@ -102,6 +102,90 @@
                 "coordinates": [
                     27.927276,
                     -26.666986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Pencardia",
+                "address": "Pencardia 1 Building, 1st Floor, 509 Pretorius St, Arcadia, Pretoria",
+                "location": "https://goo.gl/maps/8b5AwNh4bWLbsLHT6",
+                "hours": "24 hours",
+                "telephone": "+27124830100",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.205359,
+                    -25.746510
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Eugene Marais",
+                "address": "663 5th Avenue, Les Marais, Pretoria, 0084",
+                "location": "https://goo.gl/maps/qJDtkjj89tDCEQ8W6",
+                "hours": "Mon–Fri, 08:00-17:00",
+                "telephone": "+271240408600",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.193661,
+                    -25.709591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Woodhill",
+                "address": "Parkview Shopping Centre, 24 Garsfontein Rd, Moreleta Park, Pretoria, 0044",
+                "location": "https://goo.gl/maps/4Mi13V64Pi7L1kUe7",
+                "hours": "Mon–Fri, 08:00-17:00",
+                "telephone": "+27129980299",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.303140,
+                    -25.817451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet Pretoria – Midstream Mediclinic",
+                "address": "Midstream Medical Medical Park, Midstream Hill",
+                "location": "https://goo.gl/maps/HuRr4ucJZLNY2vEN8",
+                "hours": "Mon–Fri, 08:00-17:00, Sat 08:00-13:00",
+                "telephone": "+27129421102",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.190930,
+                    -25.922383
                 ]
             }
         }

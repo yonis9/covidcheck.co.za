@@ -99,7 +99,7 @@ map.on("load", function() {
   // the unclustered-point layer, open a popup at
   // the location of the feature, with
   // description HTML from its properties.
-  map.on("click", "unclustered-point", function(e) {
+  map.on("mouseenter", "unclustered-point", function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var desc = e.features[0].properties.description;
     var name = e.features[0].properties.name;
@@ -141,6 +141,11 @@ map.on("load", function() {
       )
       .addTo(map);
   });
+
+  // map.on("mouseleave", "unclustered-point", function() {
+  //   map.getCanvas().style.cursor = "";
+  //   popup.remove();
+  // });
 
   map.on("mouseenter", "clusters", function() {
     map.getCanvas().style.cursor = "pointer";

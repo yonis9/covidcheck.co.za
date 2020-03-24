@@ -252,6 +252,49 @@
                     -25.783493
                 ]
             }
+        },
+        // Western Cape
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Kingsbury Hospital Parking Lot",
+                "address": "Claremont Life Kingsbury Hospital, 23 Wilderness Rd, Claremont, Cape Town, 7708, (after the boom, first tent, next to main entrance of hospital)",
+                "location": "https://goo.gl/maps/T6G3PZUD3vJFyMYs9",
+                "hours": "Mon-Fri 08:00-16:00, Sat & Sun 09:00-13:00",
+                "telephone": "+27216731700",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.469107,
+                    -33.986199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Century City",
+                "address": "Smartsurv House, Century City, Cape Town, 7441, (Located on Canal Walk Shopping Centre)",
+                "location": "https://goo.gl/maps/DeJ7fxKw44Ywyytz5",
+                "hours": "Mon-Sun 07:00–19:00",
+                "telephone": "+27216731700",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.515243,
+                    -33.892153
+                ]
+            }
         }
     ]
 }

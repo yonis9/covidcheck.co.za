@@ -294,6 +294,48 @@
                     -33.892153
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - PMB Midlands",
+                "address": "Ground Floor, Midlands Medical Centre, 162-166 Masukwana St, Pietermaritzburg, 3201",
+                "location": "https://goo.gl/maps/exCq6LtNKtZt4j1j8",
+                "hours": "Mon-Fri 08:00-17:00, Sat 08:00-13:00",
+                "telephone": "+27332644340",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.391069,
+                    -29.592495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Teleradio building",
+                "address": "73 Carlisle Street, Durban Central, Durban, 4001",
+                "location": "https://goo.gl/maps/Htydfw3LqAzAuLcZA",
+                "hours": "Mon-Fri 8:00-17:00, Sat 8:00-13:00",
+                "telephone": "+27313086500",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.015200,
+                    -29.850569
+                ]
+            }
         }
     ]
 }

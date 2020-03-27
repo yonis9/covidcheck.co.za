@@ -44,11 +44,13 @@ map.on("load", function() {
         ["get", "point_count"],
         "#8187ff",
         10,
-        "#83b9ff",
+        // "#83b9ff",
+        "#6200ee",
         50,
         "#448aff"
       ],
-      "circle-radius": ["step", ["get", "point_count"], 20, 10, 30, 50, 40]
+      "circle-radius": ["step", ["get", "point_count"], 20, 10, 30, 50, 40],
+      "circle-opacity": 0.8
     }
   });
 
@@ -60,7 +62,7 @@ map.on("load", function() {
     layout: {
       "text-field": "{point_count_abbreviated}",
       "text-font": ["DIN Offc Pro Bold", "Arial Unicode MS Bold"],
-      "text-size": 14
+      "text-size": 15
     }
   });
 

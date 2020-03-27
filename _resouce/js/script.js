@@ -18,12 +18,12 @@ map.on("load", function() {
   // Add a new source from our GeoJSON data and
   // set the 'cluster' option to true. GL-JS will
   // add the point_count property to your source data.
-  map.addSource("earthquakes", {
+  map.addSource("locations", {
     type: "geojson",
-    // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
-    // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
+    // Point to GeoJSON data.
     data: geojson_source,
-    cluster: true
+    cluster: true,
+    generateId: true
     // clusterMaxZoom: 14, // Max zoom to cluster points on
     // clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
   });
@@ -31,7 +31,7 @@ map.on("load", function() {
   map.addLayer({
     id: "clusters",
     type: "circle",
-    source: "earthquakes",
+    source: "locations",
     filter: ["has", "point_count"],
     paint: {
       // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
@@ -43,36 +43,38 @@ map.on("load", function() {
         "step",
         ["get", "point_count"],
         "#8187ff",
-        100,
-        "#83b9ff",
-        750,
+        10,
+        // "#83b9ff",
+        "#6200ee",
+        50,
         "#448aff"
       ],
-      "circle-radius": ["step", ["get", "point_count"], 20, 100, 30, 750, 40]
+      "circle-radius": ["step", ["get", "point_count"], 20, 10, 30, 50, 40],
+      "circle-opacity": 0.8
     }
   });
 
   map.addLayer({
     id: "cluster-count",
     type: "symbol",
-    source: "earthquakes",
+    source: "locations",
     filter: ["has", "point_count"],
     layout: {
       "text-field": "{point_count_abbreviated}",
       "text-font": ["DIN Offc Pro Bold", "Arial Unicode MS Bold"],
-      "text-size": 14
+      "text-size": 15
     }
   });
 
   map.addLayer({
     id: "unclustered-point",
     type: "circle",
-    source: "earthquakes",
+    source: "locations",
     filter: ["!", ["has", "point_count"]],
     paint: {
       "circle-color": "#11b4da",
-      "circle-radius": 4,
-      "circle-stroke-width": 1,
+      "circle-radius": 6,
+      "circle-stroke-width": 2,
       "circle-stroke-color": "#fff"
     }
   });
@@ -84,7 +86,7 @@ map.on("load", function() {
     });
     var clusterId = features[0].properties.cluster_id;
     map
-      .getSource("earthquakes")
+      .getSource("locations")
       .getClusterExpansionZoom(clusterId, function(err, zoom) {
         if (err) return;
 
@@ -99,9 +101,17 @@ map.on("load", function() {
   // the unclustered-point layer, open a popup at
   // the location of the feature, with
   // description HTML from its properties.
-  map.on("click", "unclustered-point", function(e) {
+  map.on("mouseenter", "unclustered-point", function(e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var desc = e.features[0].properties.description;
+    var name = e.features[0].properties.name;
+    var address = e.features[0].properties.address;
+    var location = e.features[0].properties.location;
+    var telephone = e.features[0].properties.telephone;
+    // var eligibility_screening = e.features[0].properties.eligibility_screening;
+    var referral_required = e.features[0].properties.referral_required;
+    var appointment_required = e.features[0].properties.appointment_required;
+    var drivethru = e.features[0].properties.drivethru;
 
     // Ensure that if the map is zoomed out such that
     // multiple copies of the feature are visible, the
@@ -112,9 +122,32 @@ map.on("load", function() {
 
     new mapboxgl.Popup()
       .setLngLat(coordinates)
-      .setHTML(desc)
+      .setHTML(
+        "<h3>" +
+          name +
+          "</h3><p>" +
+          address +
+          "<br><a href='tel:" +
+          telephone +
+          "'>" +
+          telephone +
+          "</a><br><a href='" +
+          location +
+          "'>Directions</a><br><br>Doctor's note required? <strong>" +
+          referral_required +
+          "</strong><br>Appointment required? <strong>" +
+          appointment_required +
+          "</strong><br>Drive-through facilty? <strong>" +
+          drivethru +
+          "</strong></p>"
+      )
       .addTo(map);
   });
+
+  // map.on("mouseleave", "unclustered-point", function() {
+  //   map.getCanvas().style.cursor = "";
+  //   popup.remove();
+  // });
 
   map.on("mouseenter", "clusters", function() {
     map.getCanvas().style.cursor = "pointer";

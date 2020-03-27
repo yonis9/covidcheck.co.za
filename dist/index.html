@@ -10,7 +10,7 @@
       content="COVID Check | Find a COVID-19 Test Location in South Africa"
     />
     <meta property="og:site_name" content="COVID Check" />
-    <meta property="og:url" content="https://covid-check.netlify.com" />
+    <meta property="og:url" content="https://covidcheck.co.za" />
     <meta
       property="og:description"
       content="Find or add COVID-19 testing labs in South Africa"
@@ -80,16 +80,38 @@
           left: 1.5rem;
         }
       }
+      .contact {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+      }
+      @media (min-width: 1024px) {
+        .contact {
+          bottom: 2rem;
+          right: 0.5rem;
+        }
+      }
     </style>
 
     <title>Find a COVID-19 Test Location in South Africa</title>
   </head>
   <body>
-    <a href="https://covidcheck.typeform.com/to/I282Ro">
+    <a href="./add-location.html">
       <button class="mdc-fab mdc-fab--extended app-fab--absolute">
         <div class="mdc-fab__ripple"></div>
         <span class="material-icons mdc-fab__icon">add</span>
         <span class="mdc-fab__label">Add a Testing Location</span>
+      </button>
+    </a>
+    <!-- contact button  -->
+    <a href="./contact.html">
+      <button
+        class="mdc-fab mdc-fab--mini mdc-fab--touch contact"
+        aria-label="Contact"
+      >
+        <div class="mdc-fab__ripple"></div>
+        <span class="material-icons mdc-fab__icon">email</span>
+        <div class="mdc-fab__touch"></div>
       </button>
     </a>
     <div id="map"></div>

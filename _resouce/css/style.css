@@ -14,3 +14,11 @@ body {
   z-index: 99;
   background-color: #3d5afe;
 }
+
+.mdc-fab--mini {
+  background-color: #ffffff;
+}
+
+.contact .mdc-fab__icon {
+  color: #5a5a5a;
+}

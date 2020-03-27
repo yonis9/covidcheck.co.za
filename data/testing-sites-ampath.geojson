@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ampath - Emfuleni Laboratory",
+                "address": "(Back entrance) Mediclinic Emfuleni, 6 Jan Van Riebeeck Blvd, Vanderbijlpark, 1911",
+                "location": "https://goo.gl/maps/PXqHviA6rYQz1scy7",
+                "hours": "24 hours",
+                "telephone": "+27164547400",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.837362,
+                    -26.704890
+                ]
+            }
+        }
+    ]
+}

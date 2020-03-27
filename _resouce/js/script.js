@@ -20,10 +20,10 @@ map.on("load", function() {
   // add the point_count property to your source data.
   map.addSource("locations", {
     type: "geojson",
-    // Point to GeoJSON data. This example visualizes all M1.0+ locations
-    // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
+    // Point to GeoJSON data.
     data: geojson_source,
-    cluster: true
+    cluster: true,
+    generateId: true
     // clusterMaxZoom: 14, // Max zoom to cluster points on
     // clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
   });
@@ -123,9 +123,9 @@ map.on("load", function() {
     new mapboxgl.Popup()
       .setLngLat(coordinates)
       .setHTML(
-        "<strong>" +
+        "<h3>" +
           name +
-          "</strong><p>" +
+          "</h3><p>" +
           address +
           "<br><a href='tel:" +
           telephone +

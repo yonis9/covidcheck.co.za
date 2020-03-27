@@ -298,6 +298,27 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "Lancet - Miller House",
+                "address": "(Opposite) 4 Park Ln, Parktown, Johannesburg, 2193",
+                "location": "https://goo.gl/maps/6ymoZmEUsuH28HgA8",
+                "hours": "Mon-Fri 08:00-18:00",
+                "telephone": "+27116479000",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "Yes"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.168313,
+                    -26.179251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "Lancet - Ruimsig Collection Depot",
                 "address": "Shop 26 Ruimsig Boulevard Cnr Doreen &, Hendrik Potgieter Rd, Roodepoort, 1724",
                 "location": "https://goo.gl/maps/NLrbG4Hkaav1o9yg9",
@@ -313,6 +334,27 @@
                 "coordinates": [
                     27.869639,
                     -26.091289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lancet - Honeydew Village Centre Depot",
+                "address": "Shop 23 Honeydew Village, John Vorster Rd, Honeydew, 1715",
+                "location": "https://goo.gl/maps/1B2qDFuGQL9RxPbB9",
+                "hours": "Mon-Fri 07:00-18:00",
+                "telephone": "+27116750536",
+                "eligibility_screening": "Yes",
+                "referral_required": "Yes",
+                "appointment_required": "No",
+                "drivethru": "No"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.925224,
+                    -26.105719
                 ]
             }
         },
@@ -340,15 +382,15 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Lancet - Honeydew Village Centre Depot",
-                "address": "Shop 23 Honeydew Village, John Vorster Rd, Honeydew, 1715",
+                "name": "Lancet - Bell Street Depot",
+                "address": "Cnr. Shannon and Bell Street, Noordheuwel, Krugersdorp, 1739",
                 "location": "https://goo.gl/maps/1B2qDFuGQL9RxPbB9",
-                "hours": "Mon-Fri 07:00-18:00",
-                "telephone": "+27116750536",
+                "hours": "Mon-Fri 07:00–18:00, Sat 08:00–13:00",
+                "telephone": "+27119541503",
                 "eligibility_screening": "Yes",
                 "referral_required": "Yes",
                 "appointment_required": "No",
-                "drivethru": "No"
+                "drivethru": "Yes"
             },
             "geometry": {
                 "type": "Point",

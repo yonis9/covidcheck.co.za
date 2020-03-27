@@ -80,6 +80,17 @@
           left: 1.5rem;
         }
       }
+      .contact {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+      }
+      @media (min-width: 1024px) {
+        .contact {
+          bottom: 2rem;
+          right: 0.5rem;
+        }
+      }
     </style>
 
     <title>Find a COVID-19 Test Location in South Africa</title>
@@ -90,6 +101,13 @@
         <div class="mdc-fab__ripple"></div>
         <span class="material-icons mdc-fab__icon">add</span>
         <span class="mdc-fab__label">Add a Testing Location</span>
+      </button>
+    </a>
+    <!-- contact button  -->
+    <a href="./contact.html">
+      <button class="mdc-fab contact">
+        <div class="mdc-fab__ripple"></div>
+        <span class="material-icons mdc-fab__icon">email</span>
       </button>
     </a>
     <div id="map"></div>
